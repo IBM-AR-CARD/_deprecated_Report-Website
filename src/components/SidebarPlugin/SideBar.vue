@@ -47,11 +47,11 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Vue MD"
+      default: "UCL Team 13"
     },
     backgroundImage: {
       type: String,
-      default: require("@/assets/img/sidebar-2.jpg")
+      default: require("@/assets/img/sidebar-1-1.jpg")
     },
     imgLogo: {
       type: String,
@@ -59,7 +59,7 @@ export default {
     },
     activeColor: {
       type: String,
-      default: "green",
+      default: "red",
       validator: value => {
         let acceptedValues = ["", "purple", "blue", "green", "orange", "red"];
         return acceptedValues.indexOf(value) !== -1;

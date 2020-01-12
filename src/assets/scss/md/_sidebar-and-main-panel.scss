@@ -17,6 +17,7 @@
   }
 }
 
+
 .sidebar,
 .off-canvas-sidebar {
     position: fixed;
@@ -31,9 +32,15 @@
 
     .md-icon.md-theme-default.md-icon-font,
     .material-icons{
-      color: #fff !important;
+      color: #a9afbb;
       opacity: .8
     }
+
+ 
+    .active * {
+        color: #fff !important;
+    }
+  
 
     .md-list {
       &.nav {
@@ -125,7 +132,7 @@
             text-decoration: none;
             margin: 10px 15px 0;
             border-radius: $border-radius-base;
-            color: $white-color !important;
+            color: $grey-blue-color !important;
             white-space: nowrap;
             cursor: pointer;
             width: auto;
@@ -197,7 +204,7 @@
             float: left;
             font-size: 20px;
             margin: 10px 10px;
-            color: $white-color;
+            color: $grey-blue-color;
             line-height: 20px;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
@@ -224,7 +231,7 @@
             &,
             &:hover,
             &:focus{
-              color: $white-color !important;
+              color: $grey-blue-color !important;
             }
 
             .logo-img{
@@ -266,8 +273,8 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: rgba(27, 27, 27, 0.87);
-        opacity: .85;
+        background-color: rgba(255, 255, 255, 0.93);
+        // opacity: .85;
         top: 0;
         left: 0;
         z-index: 2;
@@ -294,7 +301,7 @@
     .nav {
         > li > a,
         > li > a:hover{
-            color: $white-color;
+            color: $grey-blue-color;
         }
 
         > li > a:focus{
