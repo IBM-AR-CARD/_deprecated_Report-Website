@@ -1,6 +1,6 @@
 import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 
-import Dashboard from "@/pages/Dashboard.vue";
+import Home from "@/pages/Home.vue";
 import UserProfile from "@/pages/UserProfile.vue";
 import TableList from "@/pages/TableList.vue";
 import Typography from "@/pages/Typography.vue";
@@ -13,35 +13,35 @@ const routes = [
   {
     path: "/",
     component: DashboardLayout,
-    redirect: "/dashboard",
+    redirect: "/home",
     children: [
       {
-        path: "dashboard",
+        path: "home",
         name: "Home",
-        component: Dashboard
+        component: Home
       },
       {
-        path: "user",
+        path: "requirements",
         name: "Requirements",
         component: UserProfile
       },
       {
-        path: "table",
+        path: "research",
         name: "Research",
         component: TableList
       },
       {
-        path: "typography",
+        path: "hci",
         name: "HCI",
         component: Typography
       },
       {
-        path: "icons",
+        path: "design",
         name: "Design",
         component: Icons
       },
       {
-        path: "maps",
+        path: "testing",
         name: "Testing",
         meta: {
           hideFooter: true
@@ -49,12 +49,12 @@ const routes = [
         component: Maps
       },
       {
-        path: "notifications",
+        path: "evaluation",
         name: "Evaluation",
         component: Notifications
       },
       {
-        path: "upgrade",
+        path: "appendices",
         name: "Appendices",
         component: UpgradeToPRO
       }
