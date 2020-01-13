@@ -17,32 +17,32 @@ const routes = [
     children: [
       {
         path: "dashboard",
-        name: "Dashboard",
+        name: "Home",
         component: Dashboard
       },
       {
         path: "user",
-        name: "User Profile",
+        name: "Requirements",
         component: UserProfile
       },
       {
         path: "table",
-        name: "Table List",
+        name: "Research",
         component: TableList
       },
       {
         path: "typography",
-        name: "Typography",
+        name: "HCI",
         component: Typography
       },
       {
         path: "icons",
-        name: "Icons",
+        name: "Design",
         component: Icons
       },
       {
         path: "maps",
-        name: "Maps",
+        name: "Testing",
         meta: {
           hideFooter: true
         },
@@ -50,12 +50,12 @@ const routes = [
       },
       {
         path: "notifications",
-        name: "Notifications",
+        name: "Evaluation",
         component: Notifications
       },
       {
         path: "upgrade",
-        name: "Upgrade to PRO",
+        name: "Appendices",
         component: UpgradeToPRO
       }
     ]

@@ -6,35 +6,35 @@
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/dashboard">
         <md-icon>dashboard</md-icon>
-        <p>Dashboard</p>
+        <p>Home</p>
       </sidebar-link>
       <sidebar-link to="/user">
         <md-icon>person</md-icon>
-        <p>User Profile</p>
+        <p>Requirements</p>
       </sidebar-link>
       <sidebar-link to="/table">
         <md-icon>content_paste</md-icon>
-        <p>Table list</p>
+        <p>Research</p>
       </sidebar-link>
       <sidebar-link to="/typography">
         <md-icon>library_books</md-icon>
-        <p>Typography</p>
+        <p>HCI</p>
       </sidebar-link>
       <sidebar-link to="/icons">
         <md-icon>bubble_chart</md-icon>
-        <p>Icons</p>
+        <p>Design</p>
       </sidebar-link>
       <sidebar-link to="/maps">
         <md-icon>location_on</md-icon>
-        <p>Maps</p>
+        <p>Testing</p>
       </sidebar-link>
       <sidebar-link to="/notifications">
         <md-icon>notifications</md-icon>
-        <p>Notifications</p>
+        <p>Evaluation</p>
       </sidebar-link>
       <sidebar-link to="/upgrade" class="active-pro">
         <md-icon>unarchive</md-icon>
-        <p>Upgrade to PRO</p>
+        <p>Appendices</p>
       </sidebar-link>
     </side-bar>
 
