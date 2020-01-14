@@ -1,13 +1,13 @@
 import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 
 import Home from "@/pages/Home.vue";
-import UserProfile from "@/pages/Requirements.vue";
-import TableList from "@/pages/Research.vue";
-import Typography from "@/pages/Hci.vue";
-import Icons from "@/pages/Design.vue";
-import Maps from "@/pages/Testing.vue";
-import Notifications from "@/pages/Evaluation.vue";
-import UpgradeToPRO from "@/pages/Appendices.vue";
+import Requirements from "@/pages/Requirements.vue";
+import Research from "@/pages/Research.vue";
+import Hci from "@/pages/Hci.vue";
+import Design from "@/pages/Design.vue";
+import Testing from "@/pages/Testing.vue";
+import Evaluation from "@/pages/Evaluation.vue";
+import Appendices from "@/pages/Appendices.vue";
 
 const routes = [
   {
@@ -23,22 +23,22 @@ const routes = [
       {
         path: "requirements",
         name: "Requirements",
-        component: UserProfile
+        component: Requirements
       },
       {
         path: "research",
         name: "Research",
-        component: TableList
+        component: Research
       },
       {
         path: "hci",
         name: "HCI",
-        component: Typography
+        component: Hci
       },
       {
         path: "design",
         name: "Design",
-        component: Icons
+        component: Design
       },
       {
         path: "testing",
@@ -46,17 +46,17 @@ const routes = [
         meta: {
           hideFooter: true
         },
-        component: Maps
+        component: Testing
       },
       {
         path: "evaluation",
         name: "Evaluation",
-        component: Notifications
+        component: Evaluation
       },
       {
         path: "appendices",
         name: "Appendices",
-        component: UpgradeToPRO
+        component: Appendices
       }
     ]
   }
